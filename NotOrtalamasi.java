@@ -32,14 +32,7 @@ public class NotOrtalamasi
 
         System.out.println("Ortalamanız: " + ortalama);
 
-        if (ortalama > 60)
-        {
-            System.out.println("Sınıfı Geçtiniz :)");
-        }
-        else
-        {
-            System.out.println("Sınıfta Kaldınız :(");
-        }
-
+        String sonuc = ortalama >= 60 ? "Sınıfı Geçtiniz :)":"Sınıfta Kaldınız :(";
+        System.out.println(sonuc);
     }
 }
