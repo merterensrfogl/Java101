@@ -2,7 +2,7 @@ package Giris;
 
 import java.util.Scanner;
 
-public class ucakBileti
+public class ucakBiletiProgrami
 {
     public static void main(String[] args)
     {
